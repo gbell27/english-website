@@ -1,0 +1,88 @@
+*{}
+
+body{
+	background-image: url("http://zumostestapp.azurewebsites.net/img/defaultimages/home-page-background-image.jpg");
+	background-repeat: repeat-y;
+	background-position: 50% 0;
+}
+
+.jumbotron{	
+	background-color:#F6821f;
+	
+}
+#image{
+	width:45%;
+	float: left;
+}
+#list_1{
+	background-color: orange;
+	position: relative;
+	width: 100%;		
+	border-radius: 50px;
+}
+#list_2{
+	display: none;
+	background-color: yellow;
+	position: relative;	
+	width: 100%;
+	min-height: 100px;
+	border-radius: 50px;
+}
+
+#list_3{	
+	display: none;
+	background-color: orange;
+	position:relative;	
+	width: 100%;
+	min-height:100px;	
+	border-radius: 50px;		
+}
+
+div.list_1 p{
+	font-weight:500;
+	font-size:20px;
+}
+div.list_2 p{
+	font-weight:500;
+	font-size:20px;
+}
+div.list_3 p{
+	font-weight:500;
+	font-size:20px;
+}
+#Advertise{	
+	background-image: url("https://usercontent1.hubstatic.com/5159070.jpg");	
+	position:relative;	
+	width: 100%;	
+	min-height:100px;	
+	border-radius: 50px;
+	/*display:none;*/		
+}
+#lists{
+	width: 50%;
+	float: left;
+}
+.clicked{
+	background-color: cyan;
+	border-radius: 50px;
+}
+@media screen and (max-width:1207px){
+	#lists{width: 100%;
+		float:none;}
+}
+.Advertise h2,h3,h4{
+	font-weight: 900;
+	color:red;
+}
+.fill:active{
+	background-color:orange;
+}
+
+form{
+	display:none;
+	font-size: 12px;
+}
+
+.well{
+	position: relative;
+}
